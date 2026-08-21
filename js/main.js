@@ -1,7 +1,7 @@
 const HDS_CONFIG = {
-  phoneDisplay: "+91 90000 00000",
-  phoneRaw: "919000000000",
-  whatsapp: "919000000000",
+  phoneDisplay: "+91 98851 79772",
+  phoneRaw: "919885179772",
+  whatsapp: "919885179772",
   email: "bookings@hariharanstudio.in"
 };
 
