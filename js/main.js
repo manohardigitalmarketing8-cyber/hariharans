@@ -7,14 +7,6 @@ const HDS_CONFIG = {
 
 document.addEventListener("DOMContentLoaded", () => {
   const header = document.getElementById("siteHeader");
-  const hasHero = !!document.querySelector(".hero");
-  const onScroll = () => {
-    if (!header) return;
-    header.classList.toggle("scrolled", window.scrollY > 30);
-    if (hasHero) header.classList.toggle("hero-top", window.scrollY <= 30);
-  };
-  onScroll();
-  window.addEventListener("scroll", onScroll, { passive: true });
 
   const toggle = document.getElementById("navToggle");
   const nav = document.getElementById("mainNav");
