@@ -10,7 +10,7 @@
   --ink-dim:rgba(42,21,32,.72);
   --ink-faint:rgba(42,21,32,.5);
   --line:rgba(42,21,32,.12);
-  --serif:'Playfair Display',Georgia,'Times New Roman',serif;
+  --serif:'Outfit',Georgia,'Times New Roman',sans-serif;
   --sans:'Plus Jakarta Sans','Segoe UI',system-ui,sans-serif;
   --radius:18px;
   --shadow:0 24px 50px rgba(93,42,58,.14);
