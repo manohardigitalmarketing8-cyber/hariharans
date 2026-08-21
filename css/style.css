@@ -659,6 +659,11 @@ a.c-tile:hover{border-color:rgba(185,82,105,.45);transform:translateY(-4px)}
   .footer-grid{grid-template-columns:1fr}
   .exp-badge{padding:10px 18px;font-size:.78rem}
 }
+@media (max-width:768px){
+  html,body{overflow-x:hidden;-webkit-overflow-scrolling:touch}
+  body{touch-action:pan-y;overscroll-behavior-x:none}
+  .ticker,.reel-track{overscroll-behavior-x:none}
+}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
   html{scroll-behavior:auto}
